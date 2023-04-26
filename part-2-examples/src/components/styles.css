@@ -1,0 +1,14 @@
+.arrow {
+color: green;
+}
+
+.evergreen {
+   font-style: italic;
+   color: olive;
+   text-decoration:underline;
+}
+
+.deciduous {
+   color: orange;
+   font-weight:bolder;
+}
