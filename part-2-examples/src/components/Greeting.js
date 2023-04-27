@@ -1,6 +1,7 @@
+
 function Greeting(){
   return( 
-      <h1>Hello!</h1>   
+      <h1>Hello! I am a standard function.</h1>   
    );
 }
 

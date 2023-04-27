@@ -10,10 +10,9 @@
 // }
 
 
-//passing named/declared props 
-//set default values
-//function PetCheck({name = "Penny", type = "dog"}){
-function PetCheck({name, type}){
+// ----- passing named/declared props ------
+//function PetCheck({name="Penny", type = "dog"}){
+   function PetCheck({name, type}){
    
    if(type === 'dog')
    {
@@ -38,18 +37,25 @@ function PetCheck({name, type}){
 //    );
 // }
 
-function PatThePet(props){
+function PatThePet(){
    return(
    <div>
-      {/* this is useful if component is  */}
-      <PetCheck {...props}/>
+      {/* testing the default values */}
+      <PetCheck />
+
+      <p>* * * * * * * * * *</p>
+
+      {/* Setting values of the props */}
       <PetCheck
          name="Alyce"
          type="cat"/>
-      <PetCheck />
+
       <PetCheck
           name="Willow"
-          type="dog"/>
+          type="dog"/> 
+      <p> ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ </p>
+
+      {/* We could also set values of PetCheck in the App() Look for Artemis*/}
    </div>
    );
 }
