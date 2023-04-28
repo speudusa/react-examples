@@ -17,3 +17,12 @@ color: green;
    color:magenta;
 }
 
+.isEven {
+   font-size: x-large;
+   color: cornflowerblue;
+}
+
+.isOdd {
+   font-size: x-large;
+   color:darkred;
+}

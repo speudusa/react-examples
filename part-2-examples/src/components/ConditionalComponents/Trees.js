@@ -1,4 +1,4 @@
-import './styles.css'
+import './../styles.css'
 
 // function Trees({name, isEvergreen}){
 //    return (

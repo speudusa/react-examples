@@ -40,7 +40,6 @@
 function PatThePet(){
    return(
    <div>
-      {/* testing the default values */}
       <PetCheck />
 
       <p>* * * * * * * * * *</p>
