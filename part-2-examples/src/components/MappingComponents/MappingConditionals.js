@@ -1,4 +1,4 @@
-import calendar from './calendar.json'
+import calendar from '../ConditionalComponents/calendar.json'
 
 // USE MAP
 

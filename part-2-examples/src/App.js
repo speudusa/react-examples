@@ -1,9 +1,10 @@
 import './App.css'
-import SeasonSorting from './components/ConditionalComponents/MappingConditionals';
+import SeasonSorting from './components/MappingComponents/MappingConditionals';
 import NumberCheck from './components/ConditionalComponents/SimpleConditionals';
 import ExamplesSection1 from './components/JSinReactComponents/Examples-Section-1';
 import ConceptChecksSection1 from './components/JSinReactComponents/conceptChecks';
 import ExamplesSection2 from './components/ConditionalComponents/Examples-Section-2';
+import EmojiGreeting from './components/MappingComponents/mappingButtons';
 
 function App() {
   return (
@@ -24,7 +25,10 @@ function App() {
         <SeasonSorting />
         <NumberCheck/>
       <h1>Concept Checks for Section 2</h1>
+    </div>
 
+    <div>
+      <EmojiGreeting />
     </div>
     </>
   );
