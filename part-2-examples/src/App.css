@@ -43,3 +43,20 @@
   font-size: 60px;
   color:darkslateblue;
 }
+
+.rainyCSS {
+  color:steelblue;
+}
+
+.sunnyCSS {
+  color:goldenrod;
+}
+
+.dark {
+  background-color: midnightblue;
+  color:aliceblue;
+}
+.light {
+  background-color: paleturquoise;
+  color:darkorange;
+}
